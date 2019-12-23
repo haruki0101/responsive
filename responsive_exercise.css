@@ -64,7 +64,6 @@ main{
 
 @media screen and (max-width:768px){
   main{
-    width: 90%;
     margin: 50px auto;
   }
   .item-box{
@@ -72,9 +71,11 @@ main{
     margin-left: auto;
     margin-right: auto;
     float: none;
+    width: 90%;
   }
   .item-box:last-child{
   margin-bottom: 0;
+  margin-right: auto;
   }
 
 }
