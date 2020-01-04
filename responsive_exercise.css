@@ -65,13 +65,14 @@ main{
 @media screen and (max-width:768px){
   main{
     margin: 50px auto;
+    width: 90%;
   }
   .item-box{
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     float: none;
-    width: 90%;
+    width:100%;
   }
   .item-box:last-child{
   margin-bottom: 0;
